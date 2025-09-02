@@ -1,0 +1,12 @@
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\bin\Debug\net8.0\Ecommerce_TG.SharedKernel.deps.json
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\bin\Debug\net8.0\Ecommerce_TG.SharedKernel.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\bin\Debug\net8.0\Ecommerce_TG.SharedKernel.pdb
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\Ecommerce_TG.SharedKernel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\Ecommerce_TG.SharedKernel.AssemblyInfoInputs.cache
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\Ecommerce_TG.SharedKernel.AssemblyInfo.cs
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\Ecommerce_TG.SharedKernel.csproj.CoreCompileInputs.cache
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\Ecommerce_TG.SharedKernel.sourcelink.json
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\Ecommerce_TG.SharedKernel.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\refint\Ecommerce_TG.SharedKernel.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\Ecommerce_TG.SharedKernel.pdb
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.SharedKernel\obj\Debug\net8.0\ref\Ecommerce_TG.SharedKernel.dll

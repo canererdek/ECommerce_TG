@@ -13,8 +13,8 @@ public class CategoryEntityConfiguration : IEntityTypeConfiguration<Category>
         builder.HasKey(p => p.Id);
 
         builder.Property(p => p.Name).HasMaxLength(100).IsRequired();
-        builder.Property(p => p.CreatedAt).IsRequired();
-        builder.Property(p => p.UpdatedAt).IsRequired();
-        builder.Property(p => p.DeletedAt).IsRequired();
+        // builder.Property(p => p.CreatedAt).IsRequired();
+        // builder.Property(p => p.UpdatedAt);
+        // builder.Property(p => p.DeletedAt);
     }
 }

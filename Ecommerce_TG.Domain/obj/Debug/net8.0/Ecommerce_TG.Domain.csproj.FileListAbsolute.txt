@@ -1,0 +1,16 @@
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\bin\Debug\net8.0\Ecommerce_TG.Domain.deps.json
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\bin\Debug\net8.0\Ecommerce_TG.Domain.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\bin\Debug\net8.0\Ecommerce_TG.Domain.pdb
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\bin\Debug\net8.0\Ecommerce_TG.SharedKernel.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\bin\Debug\net8.0\Ecommerce_TG.SharedKernel.pdb
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerce_TG.Domain.csproj.AssemblyReference.cache
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerce_TG.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerce_TG.Domain.AssemblyInfoInputs.cache
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerce_TG.Domain.AssemblyInfo.cs
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerce_TG.Domain.csproj.CoreCompileInputs.cache
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerce_TG.Domain.sourcelink.json
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerc.0124E510.Up2Date
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerce_TG.Domain.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\refint\Ecommerce_TG.Domain.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\Ecommerce_TG.Domain.pdb
+C:\Users\caner\RiderProjects\ECommerce_TG\Ecommerce_TG.Domain\obj\Debug\net8.0\ref\Ecommerce_TG.Domain.dll
