@@ -7,17 +7,17 @@ namespace ECommerce_TG.API.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]
-public class CategoryController(IMediator mediator) : ControllerBase
+public class CategoriesController(IMediator mediator) : ControllerBase
 {
-    [HttpPost]
+    [HttpPost("addCategory")]
     public async Task<AddCategoryCommandDto> CreateCategory([FromBody] AddCategoryCommand command, CancellationToken cancellationToken = default)
     {
         return await mediator.Send(command, cancellationToken);
     }
     
-    [HttpGet]
-    public async Task<List<AllCategoryDto>> AllCategory([FromQuery] AllCategoryQuery command, CancellationToken cancellationToken = default)
+    [HttpGet("getAllCategories")]
+    public async Task<List<AllCategoryDto>> AllCategory([FromQuery] AllCategoryQuery query, CancellationToken cancellationToken = default)
     {
-        return await mediator.Send(command, cancellationToken);
+        return await mediator.Send(query, cancellationToken);
     }
 }

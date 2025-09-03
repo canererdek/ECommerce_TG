@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ecommerce_TG.SharedKernel")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a8ad73a8194225268d6728558fa8de8f3b6efee")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b761cabf904ae734bac3d17ab29c4d716739a837")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ecommerce_TG.SharedKernel")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ecommerce_TG.SharedKernel")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

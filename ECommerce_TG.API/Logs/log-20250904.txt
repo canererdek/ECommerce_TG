@@ -1,0 +1,36 @@
+2025-09-04 00:43:28.978 +03:00 [INF] Now listening on: http://localhost:5122
+2025-09-04 00:43:29.033 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-04 00:43:29.035 +03:00 [INF] Hosting environment: Development
+2025-09-04 00:43:29.036 +03:00 [INF] Content root path: C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API
+2025-09-04 00:43:29.684 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/index.html - null null
+2025-09-04 00:43:29.842 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/index.html - 200 null text/html;charset=utf-8 161.3946ms
+2025-09-04 00:43:30.220 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - null null
+2025-09-04 00:43:30.410 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5122/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 195.5746ms
+2025-09-04 00:43:41.035 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5122/api/Categories/addCategory - application/json 27
+2025-09-04 00:43:41.049 +03:00 [WRN] Failed to determine the https port for redirect.
+2025-09-04 00:43:41.055 +03:00 [INF] Executing endpoint 'ECommerce_TG.API.Controllers.CategoriesController.CreateCategory (ECommerce_TG.API)'
+2025-09-04 00:43:41.095 +03:00 [INF] Route matched with {action = "CreateCategory", controller = "Categories"}. Executing controller action with signature System.Threading.Tasks.Task`1[ECommerce_TG.Application.Categories.Command.AddCategory.AddCategoryCommandDto] CreateCategory(ECommerce_TG.Application.Categories.Command.AddCategory.AddCategoryCommand, System.Threading.CancellationToken) on controller ECommerce_TG.API.Controllers.CategoriesController (ECommerce_TG.API).
+2025-09-04 00:43:41.103 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software MediatR. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2025-09-04 00:43:41.140 +03:00 [INF] Executing action method ECommerce_TG.API.Controllers.CategoriesController.CreateCategory (ECommerce_TG.API) - Validation state: "Valid"
+2025-09-04 00:43:42.118 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2025-09-04 00:43:43.033 +03:00 [INF] Executed DbCommand (66ms) [Parameters=[@__Trim_0='?' (Size = 100)], CommandType='"Text"', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Categories] AS [c]
+        WHERE LTRIM(RTRIM([c].[Name])) = @__Trim_0) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+END
+2025-09-04 00:43:43.337 +03:00 [INF] Executed DbCommand (22ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = DateTime2), @p2='?' (Size = 100), @p3='?' (DbType = DateTime2)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Categories] ([CreatedAt], [DeletedAt], [Name], [UpdatedAt])
+OUTPUT INSERTED.[Id]
+VALUES (@p0, @p1, @p2, @p3);
+2025-09-04 00:43:43.383 +03:00 [INF] Category created with category id:7  at 3.09.2025 21:43:43
+2025-09-04 00:43:43.394 +03:00 [INF] Executed action method ECommerce_TG.API.Controllers.CategoriesController.CreateCategory (ECommerce_TG.API), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 2244.017ms.
+2025-09-04 00:43:43.410 +03:00 [INF] Executing ObjectResult, writing value of type 'ECommerce_TG.Application.Categories.Command.AddCategory.AddCategoryCommandDto'.
+2025-09-04 00:43:43.423 +03:00 [INF] Executed action ECommerce_TG.API.Controllers.CategoriesController.CreateCategory (ECommerce_TG.API) in 2318.888ms
+2025-09-04 00:43:43.426 +03:00 [INF] Executed endpoint 'ECommerce_TG.API.Controllers.CategoriesController.CreateCategory (ECommerce_TG.API)'
+2025-09-04 00:43:43.455 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5122/api/Categories/addCategory - 200 null application/json; charset=utf-8 2419.7566ms
+2025-09-04 00:50:45.485 +03:00 [INF] Application is shutting down...

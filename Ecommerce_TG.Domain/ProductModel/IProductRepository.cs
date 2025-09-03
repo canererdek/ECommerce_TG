@@ -4,5 +4,5 @@ namespace TG_Ecommerce.Domain.ProductModel;
 
 public interface IProductRepository : IRepository<Product>
 {
-    
+    Task<List<Product>> AllProductsWithCategoryAsync();
 }
