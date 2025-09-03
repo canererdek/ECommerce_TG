@@ -1,4 +1,5 @@
 using ECommerce_TG.Application.Categories.Command.AddCategory;
+using ECommerce_TG.Application.Categories.Queries.AllCategory;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,6 +11,12 @@ public class CategoryController(IMediator mediator) : ControllerBase
 {
     [HttpPost]
     public async Task<AddCategoryCommandDto> CreateCategory([FromBody] AddCategoryCommand command, CancellationToken cancellationToken = default)
+    {
+        return await mediator.Send(command, cancellationToken);
+    }
+    
+    [HttpGet]
+    public async Task<List<AllCategoryDto>> AllCategory([FromQuery] AllCategoryQuery command, CancellationToken cancellationToken = default)
     {
         return await mediator.Send(command, cancellationToken);
     }
