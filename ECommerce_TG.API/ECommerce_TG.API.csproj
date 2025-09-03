@@ -7,6 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
+        <PackageReference Include="MediatR" Version="13.0.0" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.19">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -15,6 +16,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\ECommerce_TG.Application\ECommerce_TG.Application.csproj" />
       <ProjectReference Include="..\ECommerce_TG.Infrastructure\ECommerce_TG.Infrastructure.csproj" />
     </ItemGroup>
 

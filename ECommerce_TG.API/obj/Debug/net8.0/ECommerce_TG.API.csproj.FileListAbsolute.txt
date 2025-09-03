@@ -149,3 +149,8 @@ C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\obj\Debug\net8.0\refi
 C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\obj\Debug\net8.0\ECommerce_TG.API.pdb
 C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\obj\Debug\net8.0\ECommerce_TG.API.genruntimeconfig.cache
 C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\obj\Debug\net8.0\ref\ECommerce_TG.API.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\MediatR.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\MediatR.Contracts.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\ECommerce_TG.Application.dll
+C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\ECommerce_TG.Application.pdb

@@ -8,6 +8,8 @@ namespace TG_Ecommerce.Infrastructure.Repositories;
 public class EfRepository<T>(EcommerceDbContext context) : IRepository<T> where T : class
 {
     protected readonly EcommerceDbContext _context = context ?? throw new ArgumentNullException(nameof(context));
+    
+    public IUnitOfWork UnitOfWork => _context;
 
     public async Task<T> GetByIdAsync(Guid id)
     {
