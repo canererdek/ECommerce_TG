@@ -154,3 +154,4 @@ C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\Medi
 C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\MediatR.Contracts.dll
 C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\ECommerce_TG.Application.dll
 C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\ECommerce_TG.Application.pdb
+C:\Users\caner\RiderProjects\ECommerce_TG\ECommerce_TG.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

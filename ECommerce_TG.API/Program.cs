@@ -1,4 +1,6 @@
+using ECommerce_TG.Application;
 using TG_Ecommerce.Infrastructure;
+using TG_Ecommerce.Infrastructure.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +12,9 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddInfrastructure(builder.Configuration);
+builder.Services.AddApplicationServices();
+builder.Services.AddInfrastructureServices();
+
 
 var app = builder.Build();
 

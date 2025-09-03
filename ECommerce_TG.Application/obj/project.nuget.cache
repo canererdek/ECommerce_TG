@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/4Er/luPtfY=",
+  "dgSpecHash": "jJA5PMSMBDE=",
   "success": true,
   "projectFilePath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caner\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
+    "C:\\Users\\caner\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.0.0\\fluentvalidation.dependencyinjectionextensions.12.0.0.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\mediatr\\13.0.0\\mediatr.13.0.0.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",
