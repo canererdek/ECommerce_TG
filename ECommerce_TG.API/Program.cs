@@ -6,8 +6,7 @@ using TG_Ecommerce.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
+// Configure Serilog logging
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
     .WriteTo.File("Logs/log-.txt", rollingInterval: RollingInterval.Day)
@@ -20,14 +19,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Infrastructure katmanı servislerini ekle
 builder.Services.AddInfrastructure(builder.Configuration);
+// Application katmanı servislerini ekle
 builder.Services.AddApplicationServices();
 
 builder.Host.UseSerilog();
 
 var app = builder.Build();
 
-
+// Db migration başlatma
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<EcommerceDbContext>();

@@ -13,10 +13,13 @@ public class EcommerceDbContext : DbContext, IUnitOfWork
     {
     }
 
-    // DbSet tanımları
+    // DbSet tanımları -> Veritabanında oluşturulacak tabloları temsil eder.
     public DbSet<Product> Products { get; set; }
     public DbSet<Category> Categories { get; set; }
     
+    
+    // Model oluşturma aşaması (Fluent API ile konfigürasyonlar burada yapılır).
+    // EntityConfiguration sınıfları ile tabloların kolon ve ilişkileri detaylı şekilde ayarlanır.
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
@@ -25,6 +28,8 @@ public class EcommerceDbContext : DbContext, IUnitOfWork
         modelBuilder.ApplyConfiguration(new CategoryEntityConfiguration());
     }
 
+    // UnitOfWork pattern'i ile veritabanı değişikliklerini kaydeden metod.
+    // SaveChangesAsync çağırır ve değişikliklerin başarıyla kaydedilip kaydedilmediğini döner.
     public async Task<bool> SaveEntitiesAsync(CancellationToken cancellationToken = default)
     {
         var result = await base.SaveChangesAsync(cancellationToken);

@@ -5,10 +5,17 @@ using TG_Ecommerce.SharedKernel.SeedWork;
 
 namespace TG_Ecommerce.Infrastructure.Repositories;
 
+
+// Generic Repository Pattern implementasyonu
+// T : class -> Yalnızca referans tipler (Entity sınıfları) kullanılabilir.
+// IRepository<T> arayüzünü uygular ve temel CRUD operasyonlarını soyutlar.
+// Böylece veri erişim katmanında tekrar eden kodlar azaltılır.
 public class EfRepository<T>(EcommerceDbContext context) : IRepository<T> where T : class
 {
+    // EF Core DbContext referansı. Null verilirse ArgumentNullException fırlatılır.
     protected readonly EcommerceDbContext _context = context ?? throw new ArgumentNullException(nameof(context));
     
+    // UnitOfWork pattern’i -> Veritabanı işlemlerinin transaction mantığıyla yönetilmesini sağlar.
     public IUnitOfWork UnitOfWork => _context;
 
     public async Task<T> GetByIdAsync(Guid id)
