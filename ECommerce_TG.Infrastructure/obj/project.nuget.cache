@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "h3nV5ecI5UQ=",
+  "dgSpecHash": "OB7xwsmNQJk=",
   "success": true,
-  "projectFilePath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caner\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

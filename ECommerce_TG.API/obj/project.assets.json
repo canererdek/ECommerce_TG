@@ -5008,11 +5008,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.API\\ECommerce_TG.API.csproj",
+      "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.API\\ECommerce_TG.API.csproj",
       "projectName": "ECommerce_TG.API",
-      "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.API\\ECommerce_TG.API.csproj",
+      "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.API\\ECommerce_TG.API.csproj",
       "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.API\\obj\\",
+      "outputPath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5030,11 +5030,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj": {
-              "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj"
+            "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj": {
+              "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj"
             },
-            "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj"
+            "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KFrWJDevK3Q=",
+  "dgSpecHash": "f/zOMbT/wvw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj",
+  "projectFilePath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caner\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\caner\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

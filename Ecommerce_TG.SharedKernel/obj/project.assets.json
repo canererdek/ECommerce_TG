@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj",
+      "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj",
       "projectName": "Ecommerce_TG.SharedKernel",
-      "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj",
+      "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj",
       "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\obj\\",
+      "outputPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",

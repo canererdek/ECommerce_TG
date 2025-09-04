@@ -4601,11 +4601,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj",
       "projectName": "ECommerce_TG.Infrastructure",
-      "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Infrastructure\\ECommerce_TG.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4623,8 +4623,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj": {
-              "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj"
+            "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj": {
+              "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj"
             }
           }
         }

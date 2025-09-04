@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj": {}
+    "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj": {
+    "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj",
+        "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj",
         "projectName": "ECommerce_TG.Application",
-        "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj",
+        "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Application\\ECommerce_TG.Application.csproj",
         "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\ECommerce_TG.Application\\obj\\",
+        "outputPath": "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -29,8 +29,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj": {
-                "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj"
+              "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj": {
+                "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj"
               }
             }
           }
@@ -91,14 +91,14 @@
         }
       }
     },
-    "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj": {
+    "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj",
         "projectName": "Ecommerce_TG.Domain",
-        "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj",
+        "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.Domain\\Ecommerce_TG.Domain.csproj",
         "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.Domain\\obj\\",
+        "outputPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -116,8 +116,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj": {
-                "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj"
+              "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj": {
+                "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj": {
+    "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj",
+        "projectUniqueName": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj",
         "projectName": "Ecommerce_TG.SharedKernel",
-        "projectPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj",
+        "projectPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\Ecommerce_TG.SharedKernel.csproj",
         "packagesPath": "C:\\Users\\caner\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caner\\RiderProjects\\ECommerce_TG\\Ecommerce_TG.SharedKernel\\obj\\",
+        "outputPath": "C:\\Users\\caner\\RiderProjects\\TG\\Ecommerce_TG.SharedKernel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caner\\AppData\\Roaming\\NuGet\\NuGet.Config",

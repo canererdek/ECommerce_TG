@@ -1,0 +1,21 @@
+# This is a generated file. Not intended for manual editing.
+version: "3.8"
+services:
+  ecommerce_tg.api:
+    build:
+      context: "C:\\Users\\caner\\RiderProjects\\TG"
+      dockerfile: "ECommerce_TG.API/Dockerfile"
+      target: "base"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app/bin/Debug/net8.0/ECommerce_TG.API.dll"
+    environment:
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+    image: "ecommerce_tg.apı:dev"
+    ports: []
+    volumes:
+    - "C:\\Users\\caner\\RiderProjects\\TG\\ECommerce_TG.API:/app:rw"
+    - "C:\\Users\\caner\\RiderProjects\\TG:/src:rw"
+    - "C:\\Users\\caner\\.nuget\\packages:/home/app/.nuget/packages"
+    working_dir: "/app"

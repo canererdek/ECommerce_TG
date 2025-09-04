@@ -1,6 +1,8 @@
 using ECommerce_TG.Application;
+using Microsoft.EntityFrameworkCore;
 using Serilog;
 using TG_Ecommerce.Infrastructure;
+using TG_Ecommerce.Infrastructure.Context;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,6 +26,13 @@ builder.Services.AddApplicationServices();
 builder.Host.UseSerilog();
 
 var app = builder.Build();
+
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<EcommerceDbContext>();
+    db.Database.Migrate();
+}
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
